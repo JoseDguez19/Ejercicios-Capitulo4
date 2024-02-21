@@ -1,0 +1,15 @@
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\bin\Debug\Ejercicios_Capitulo_4_(WinForms+POO).exe.config
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\bin\Debug\Ejercicios_Capitulo_4_(WinForms+POO).exe
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\bin\Debug\Ejercicios_Capitulo_4_(WinForms+POO).pdb
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4_(WinForms+POO).csproj.AssemblyReference.cache
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4__WinForms_POO_.Properties.Resources.resources
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4_(WinForms+POO).csproj.GenerateResource.cache
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4_(WinForms+POO).csproj.CoreCompileInputs.cache
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4_(WinForms+POO).exe
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4_(WinForms+POO).pdb
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4__WinForms_POO_.Form1.resources
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4__WinForms_POO_.TablasDeMultiplicar.resources
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4__WinForms_POO_.NumeroPrimo.resources
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4__WinForms_POO_.Caldera.resources
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4__WinForms_POO_.Edades.resources
+C:\Users\ap550\source\repos\Ejercicios_Capitulo_4_(WinForms+POO)\obj\Debug\Ejercicios_Capitulo_4__WinForms_POO_.Potencia.resources

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{947CA903-4602-40FC-8B48-63DE6F1E5D79}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ejercicios_Capitulo_4__WinForms_POO_</RootNamespace>
+    <AssemblyName>Ejercicios_Capitulo_4_%28WinForms+POO%29</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caldera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caldera.Designer.cs">
+      <DependentUpon>Caldera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClasesEjs\LogicaCaldera.cs" />
+    <Compile Include="ClasesEjs\LogicaEdades.cs" />
+    <Compile Include="ClasesEjs\LogicaNumeroPrimo.cs" />
+    <Compile Include="ClasesEjs\LogicaPotencia.cs" />
+    <Compile Include="ClasesEjs\LogicaTablasDeMultiplicar.cs" />
+    <Compile Include="Edades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edades.Designer.cs">
+      <DependentUpon>Edades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumeroPrimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumeroPrimo.Designer.cs">
+      <DependentUpon>NumeroPrimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Potencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Potencia.Designer.cs">
+      <DependentUpon>Potencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TablasDeMultiplicar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TablasDeMultiplicar.Designer.cs">
+      <DependentUpon>TablasDeMultiplicar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Caldera.resx">
+      <DependentUpon>Caldera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edades.resx">
+      <DependentUpon>Edades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumeroPrimo.resx">
+      <DependentUpon>NumeroPrimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Potencia.resx">
+      <DependentUpon>Potencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TablasDeMultiplicar.resx">
+      <DependentUpon>TablasDeMultiplicar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
